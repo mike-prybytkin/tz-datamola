@@ -1,0 +1,8 @@
+@import './abstract/variables.css';
+
+@import './base/normalize.css';
+
+@import './components/slider.css';
+@import './components/burger-menu.css';
+
+@import './layout/header.css';
