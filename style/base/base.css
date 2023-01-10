@@ -1,5 +1,5 @@
 body {
-  font-family: 'Mulish', 'Geneva', 'Tahoma', sans-serif;
+  font-family: var(--font-main);
   font-size: 10px;
   background: var(--color-bg-body);
   color: var(--color-text-main);
@@ -19,4 +19,11 @@ body {
   position: relative;
   border-bottom: 1px solid rgba(160, 160, 160, .2);
   bottom: 80px;
+}
+
+.button {
+  border: none;
+  outline: none;
+  background: transparent;
+  transition: all .3s ease-in-out;
 }

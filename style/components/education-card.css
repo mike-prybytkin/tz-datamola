@@ -1,0 +1,82 @@
+.card {
+  position: relative;
+  font-size: 1rem;
+  height: 175px;
+}
+
+.card__timeline-dot {
+  position: absolute;
+  left: calc(50% - 25px) ;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: var(--color-text-secondary);
+  background: var(--color-main);
+  box-shadow: var(--section-shadow);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.card__timeline-dot span {
+  position: relative;
+  top: 4px;
+  text-shadow: var(--text-shadow);
+}
+
+.card__content {
+  position: relative;
+  width: 40%;
+  background: var(--color-light);
+  padding: 20px;
+  box-shadow: var(--section-shadow);
+}
+
+.card__skill,
+.card__date {
+  margin: 0 0 8px;
+}
+
+.card__school,
+.card__description {
+  margin: 0;
+}
+
+.card__button {
+  padding: 0;
+  font-size: 1.4rem;
+  color: var(--color-card-button);
+}
+
+.card__button:hover {
+  color: var(--color-card-button-hover);
+}
+
+.card__content::before {
+  content: '';
+  width: 40px;
+  height: 4px;
+  position: absolute;
+  top: 23px;
+  z-index: -2;
+  opacity: 0.4;
+  background: var(--color-main);
+}
+
+.card:nth-child(odd) .card__content {
+  float: left;
+  border-left: 4px solid var(--color-card-border);
+}
+
+.card:nth-child(odd) .card__content::before {
+  left: 100%;
+}
+
+.card:nth-child(even) .card__content {
+  float: right;
+  border-right: 4px solid var(--color-card-border);
+}
+
+.card:nth-child(even) .card__content::before {
+  right: 100%;
+}

@@ -7,7 +7,7 @@
   bottom: calc(330px / 2);
   overflow: hidden;
   gap: 135px;
-  font-family: 'Raleway', 'Arial', 'Helvetica', sans-serif;
+  font-family: var(--font-additional);
   box-shadow: var(--section-shadow);
 }
 
@@ -18,12 +18,12 @@
 
 .person__name {
   margin: 0;
-  text-shadow: 2px 2px 4px rgb(0 0 0 / 29%);
+  text-shadow: var(--text-shadow);
 }
 
 .person__position {
   margin-top: 6px;
-  text-shadow: 2px 2px 4px rgb(0 0 0 / 29%);
+  text-shadow: var(--text-shadow);
 }
 
 .person__contacts {
