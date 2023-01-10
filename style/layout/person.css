@@ -1,0 +1,66 @@
+.person {
+  position: relative;
+  background-color: var(--color-main);
+  color: var(--color-text-main);
+  font-size: 1.5rem;
+  height: 330px;
+  bottom: calc(330px / 2);
+  overflow: hidden;
+  justify-content: flex-start;
+  gap: 135px;
+  font-family: 'Raleway', 'Arial', 'Helvetica', sans-serif;
+}
+
+.person__info {
+  padding: 40px 0 40px 40px;
+  flex-basis: 400px;
+}
+
+.person__name {
+  margin: 0;
+  text-shadow: 2px 2px 4px rgb(0 0 0 / 29%);
+}
+
+.person__position {
+  margin-top: 6px;
+  text-shadow: 2px 2px 4px rgb(0 0 0 / 29%);
+}
+
+.person__contacts {
+  font-size: 1.2rem;
+  padding: 0;
+  list-style-type: none;
+}
+
+.person__contacts .fa {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.person__social-media {
+  font-size: 2.5rem;
+}
+
+.link.linkedin {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.person__slant {
+  position: relative;
+  background-color: var(--color-main);
+  z-index: 1;
+  transform: skewX(10deg);
+  flex-basis: 85px;
+}
+
+.person__photo-wrapper {
+  position: absolute;
+  right: 0;
+}
+
+.person__photo {
+  height: 340px;
+  width: 370px;
+  object-fit: cover;
+}
