@@ -1,5 +1,8 @@
 :root {
   --color-main: #06A763;
-  --color-text-main: #f5f5f5;
+  --color-text-secondary: #f5f5f5;
+  --color-text-main: rgb(97, 97, 97);
+  --color-bg-body: #f5f5f5;
+  --section-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
   --desktop-width: 1000px;
 }

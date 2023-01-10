@@ -1,0 +1,6 @@
+.about__content {
+  padding: 40px;
+  font-size: 1rem;
+  box-shadow: var(--section-shadow);
+  text-align: justify;
+}

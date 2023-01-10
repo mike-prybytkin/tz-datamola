@@ -1,14 +1,14 @@
 .person {
   position: relative;
   background-color: var(--color-main);
-  color: var(--color-text-main);
+  color: var(--color-text-secondary);
   font-size: 1.5rem;
   height: 330px;
   bottom: calc(330px / 2);
   overflow: hidden;
-  justify-content: flex-start;
   gap: 135px;
   font-family: 'Raleway', 'Arial', 'Helvetica', sans-serif;
+  box-shadow: var(--section-shadow);
 }
 
 .person__info {
@@ -47,11 +47,13 @@
 }
 
 .person__slant {
-  position: relative;
+  position: absolute;
+  width: 60px;
+  height: 400px;
+  right: 335px;
   background-color: var(--color-main);
   z-index: 1;
   transform: skewX(10deg);
-  flex-basis: 85px;
 }
 
 .person__photo-wrapper {

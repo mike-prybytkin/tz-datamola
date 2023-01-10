@@ -1,4 +1,4 @@
 .wrapper {
-  width: var(--desktop-width);
+  max-width: var(--desktop-width);
   margin: auto;
 }
