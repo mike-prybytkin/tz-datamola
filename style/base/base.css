@@ -27,3 +27,19 @@ body {
   background: transparent;
   transition: all .3s ease-in-out;
 }
+
+progress,
+progress::-webkit-progress-bar {
+  height: 8px;
+  width: 100%;
+  border-radius: 4px;
+  color: var(--color-main);
+  overflow: hidden;
+}
+progress::-webkit-progress-bar {
+  border: 1px solid var(--color-text-main);
+  background: var(--color-bg-select-tag);
+}
+progress::-webkit-progress-value {
+  background-color: var(--color-light);
+}

@@ -10,6 +10,6 @@
 }
 
 .layout-3-column > * {
-  flex-basis: 33%;
+  flex-basis: 30%;
 }
 

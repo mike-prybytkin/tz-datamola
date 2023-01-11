@@ -1,0 +1,39 @@
+.skills-background {
+  color: var(--color-light);
+  background: var(--color-main);
+  box-shadow: var(--section-shadow);
+  padding: 40px;
+  margin-top: 40px;
+}
+
+
+.skills-column__heading {
+  margin: 0 0 20px;
+  text-align: center;
+  font-size: 1.6rem;
+  text-shadow: var(--text-shadow);
+}
+
+.skills-column__skill {
+  font-size: 1rem;
+  position: relative;
+  margin-bottom: 35px;
+}
+
+.skills-column__skill:last-of-type {
+  margin-bottom: 0px;
+}
+
+.skill__name,
+.skill__experience {
+  position: absolute;
+  bottom: 10px;
+}
+
+.skill__name {
+  padding-right: 40px;
+}
+
+.skill__experience {
+  right: 0;
+}
