@@ -3,7 +3,7 @@
 }
 
 .education-timeline {
-  padding-top: 40px;
+  padding-top: 10px;
   position: relative;
 }
 
@@ -12,7 +12,7 @@
   position: absolute;
   left: 50%;
   margin-left: -2px;
-  height: 77.1%;
+  height: 81%;
   opacity: 0.4;
   background: var(--color-main);
   width: 4px;
