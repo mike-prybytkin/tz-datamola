@@ -1,6 +1,6 @@
 .card {
   position: relative;
-  font-size: 1rem;
+  font-size: 1.5rem;
   height: 175px;
 }
 
@@ -14,7 +14,7 @@
   background: var(--color-main);
   box-shadow: var(--section-shadow);
   text-align: center;
-  font-size: 2rem;
+  font-size: 3.1rem;
   font-weight: 700;
 }
 
@@ -28,7 +28,7 @@
   position: relative;
   width: 40%;
   background: var(--color-light);
-  padding: 20px;
+  padding: 20px 20px 8px 20px;
   box-shadow: var(--section-shadow);
 }
 
@@ -43,8 +43,8 @@
 }
 
 .card__button {
-  padding: 0;
-  font-size: 1.4rem;
+  padding: 6px 0 0 0;
+  font-size: 2.4rem;
   color: var(--color-card-button);
 }
 

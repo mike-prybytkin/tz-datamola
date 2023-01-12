@@ -14,37 +14,42 @@
 </head>
 
 <body>
-  <header class="header">
+  <header class="header" id="header">
     <nav class="nav"></nav>
     <div class="header-background"></div>
   </header>
   <main class="main">
-    <div class="wrapper main-wrapper">
-      <section class="person layout-3-column">
-        <div class="person__info">
-          <h1 class="person__name">Mihail Prybytkin</h1>
-          <p class="person__position">Junior Front-end Developer</p>
-          <ul class="person__contacts">
-            <li class="person__email"><i class="fa fa-envelope"></i><a class="link"
-                href="mailto:prybytkin.you@gmail.com">prybytkin.you@gmail.com</a></li>
-            <li class="person_telephone"><i class="fa fa-phone"></i><a class="link" href="tel:+375291590945"
-                title="telephone">+375 (29) 159-09-45</a></li>
-            <li class="person_location"><i class="fa fa-map-marker"></i>Minsk, Belarus</li>
-          </ul>
-          <div class="person__social-media">
-            <a class="link linkedin" href="https://www.linkedin.com/in/prybytkin-mike/" title="linkedin"
-              target="_blank"><i class="fa fa-linkedin"></i></a>
-            <a class="link github" href="https://github.com/mike-prybytkin" title="github" target="_blank"><i
-                class="fa fa-github"></i></a>
+    <section class="person">
+      <div class="wrapper">
+        <div class="person__wrapper layout-3-column">
+          <div class="person__info">
+            <h1 class="person__name">Mihail Prybytkin</h1>
+            <p class="person__position">Junior Front-end Developer</p>
+            <ul class="person__contacts">
+              <li class="person__contact person__contact_email"><i class="fa fa-envelope"></i><a class="link"
+                  href="mailto:prybytkin.you@gmail.com">prybytkin.you@gmail.com</a></li>
+              <li class="person__contact person__contact_telephone"><i class="fa fa-phone"></i><a class="link" href="tel:+375291590945"
+                  title="telephone">+375 (29) 159-09-45</a></li>
+              <li class="person__contact person__contact_telegram"><i class="fa fa-telegram"></i>@hey_who_is_this</li>
+              <li class="person__contact person__contact_location"><i class="fa fa-map-marker"></i>Minsk, Belarus</li>
+            </ul>
+            <div class="person__social-media">
+              <a class="link linkedin" href="https://www.linkedin.com/in/prybytkin-mike/" title="linkedin"
+                target="_blank"><i class="fa fa-linkedin"></i></a>
+              <a class="link github" href="https://github.com/mike-prybytkin" title="github" target="_blank"><i
+                  class="fa fa-github"></i></a>
+            </div>
+          </div>
+          <div class="person__slant"></div>
+          <div class="person__photo-wrapper">
+            <img class="person__photo" src="./assets/img/mihail-prybytkin.jpeg" alt="Mihail Prybytkin">
           </div>
         </div>
-        <div class="person__slant"></div>
-        <div class="person__photo-wrapper">
-          <img class="person__photo" src="./assets/img/mihail-prybytkin.jpeg" alt="Mihail Prybytkin">
-        </div>
-      </section>
-      <div class="line-between-sections"></div>
-      <section class="about">
+      </div>
+    </section>
+    <section class="about">
+      <div class="wrapper about__wrapper">
+        <div class="line-between-sections"></div>
         <div class="about__content">
           Hello!
           My name is Mihail, I'm a junior Front-end developer. Last year I studied at The Rolling Scopes School. During
@@ -55,15 +60,17 @@
           I would like to draw your attention to the fact that RS School is a free school from the community. I got all
           the knowledge thanks to motivation, desire and perseverance.
         </div>
-      </section>
-      <section class="education">
+      </div>
+    </section>
+    <section class="education">
+      <div class="wrapper education__wrapper">
         <h2 class="section-heading"><img class="section-heading__icon" src="./assets/icons/book.png"
             alt="book icon" />EDUCATION</h2>
         <div class="education-timeline">
           <div class="card">
             <div class="card__timeline-dot"><span>R</span></div>
             <div class="card__content">
-              <h3 class="card__skill">React</h3>
+              <h3 class="card__skill">REACT</h3>
               <p class="card__school">RS School</p>
               <p class="card__date">Sept 2022 - Dec 2022</p>
               <p class="card__description">
@@ -126,8 +133,10 @@
             </div>
           </div>
         </div>
-      </section>
-      <section class="skills">
+      </div>
+    </section>
+    <section class="skills">
+      <div class="wrapper skills__wrapper">
         <h2 class="section-heading"><img class="section-heading__icon" src="./assets/icons/mixer.png"
             alt="book icon" />SKILLS</h2>
         <div class="skills-background">
@@ -208,6 +217,11 @@
                 <span class="skill__experience">75%</span>
                 <progress class="skill__line" class="progress" id="sense-of-humor" max="100" value="75"></progress>
               </div>
+              <div class="skills-column__skill skill">
+                <label class="skill__name" for="sense-of-humor">English A2+</label>
+                <span class="skill__experience">20%</span>
+                <progress class="skill__line" class="progress" id="sense-of-humor" max="100" value="20"></progress>
+              </div>
             </div>
 
             <div class="skills-column">
@@ -230,8 +244,10 @@
             </div>
           </div>
         </div>
-      </section>
-      <section class="portfolio">
+      </div>
+    </section>
+    <section class="portfolio">
+      <div class="wrapper portfolio__wrapper">
         <h2 class="section-heading"><img class="section-heading__icon" src="./assets/icons/safe.png"
             alt="book icon" />PORTFOLIO</h2>
         <div class="portfolio__list layout-3-column">
@@ -296,8 +312,10 @@
             </div>
           </div>
         </div>
-      </section>
-      <section class="interests">
+      </div>
+    </section>
+    <section class="interests">
+      <div class="wrapper">
         <h2 class="section-heading"><img class="section-heading__icon" src="./assets/icons/heart.png"
             alt="book icon" />INTERESTS</h2>
         <div class="interests__wrapper">
@@ -337,25 +355,26 @@
             </div>
           </div>
         </div>
-      </section>
-      <section class="self-introduction">
+      </div>
+    </section>
+    <section class="self-introduction">
+      <div class="wrapper self-introduction__wrapper">
         <h2 class="section-heading"><img class="section-heading__icon" src="./assets/icons/video.png"
             alt="book icon" />SELF INTRODUCTION</h2>
         <iframe class="self-introduction__video" src="https://www.youtube.com/embed/wqJa7LhlQpM"
           title="YouTube video player" frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen></iframe>
-        <div class="self-introduction__description">
-          I present the video as a self-presentation. A little about achievement, a little humor and a little English
-          with subtitles. I put my soul into this video, you won't regret it.
-        </div>
-      </section>
-    </div>
+        <p class="self-introduction__description">
+          I present the video as a self-presentation. A little about achievement, a little humor and a little English with subtitles. I put my soul into this video, you won't regret it.
+        </p>
+      </div>
+    </section>
   </main>
   <footer class="footer">
     <div class="wrapper footer__wrapper">
       <div class="line-between-sections"></div>
-      <button class="button button_colored footer__button"><span class="button__text">GO UP <i class="fa fa-arrow-up"></i></span></button>
+      <a class="button button_colored footer__button" href="#header" ><span class="button__text">GO UP <i class="fa fa-arrow-up"></i></span></a>
     </div>
   </footer>
 </body>

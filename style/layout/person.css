@@ -1,9 +1,8 @@
-.person {
+.person__wrapper {
   position: relative;
   background-color: var(--color-main);
   color: var(--color-text-secondary);
-  font-size: 1.5rem;
-  height: 330px;
+  height: 360px;
   bottom: calc(330px / 2);
   overflow: hidden;
   gap: 135px;
@@ -19,26 +18,37 @@
 .person__name {
   margin: 0;
   text-shadow: var(--text-shadow);
+  font-size: 4.6rem;
 }
 
 .person__position {
   margin-top: 6px;
   text-shadow: var(--text-shadow);
+  font-size: 2.7rem;
 }
 
 .person__contacts {
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   padding: 0;
   list-style-type: none;
 }
 
-.person__contacts .fa {
+.person__contact {
+  margin-bottom: 4px;
+}
+
+.person__contact .fa {
   display: inline-block;
   padding-right: 10px;
 }
 
+.person__contact_location {
+  padding-left: 3px;
+  margin-bottom: 0px;
+}
+
 .person__social-media {
-  font-size: 2.5rem;
+  font-size: 3.8rem;
 }
 
 .link.linkedin {
@@ -48,7 +58,7 @@
 
 .person__slant {
   position: absolute;
-  width: 60px;
+  width: 66px;
   height: 400px;
   right: 335px;
   background-color: var(--color-main);
@@ -62,7 +72,7 @@
 }
 
 .person__photo {
-  height: 340px;
+  height: 360px;
   width: 370px;
   object-fit: cover;
 }

@@ -4,12 +4,13 @@
 }
 
 .footer__button {
-  animation: animate_up 1.5s infinite;
+  animation: animate-up 1.5s infinite;
+	padding: 20px;
 }
 
-@keyframes animate_up {
+@keyframes animate-up {
 	0% {
-		transform: translateY(20px);
+		transform: translateY(15px);
 	}
 	100% {
 		transform: translateY(0px);

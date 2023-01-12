@@ -1,6 +1,10 @@
+html {
+  scroll-behavior: smooth;
+  font-size: 10px;
+}
+
 body {
   font-family: var(--font-main);
-  font-size: 10px;
   background: var(--color-bg-body);
   color: var(--color-text-main);
 }
@@ -12,6 +16,7 @@ body {
   transition: all .3s ease-in-out;
   border: none;
   outline: none;
+  font-size: inherit;
 }
 
 .link:hover {
