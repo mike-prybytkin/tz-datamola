@@ -1,0 +1,208 @@
+.slider-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 35vw;
+  overflow: hidden;
+  border: solid 0.2rem var(--color-slider-border);
+  background: var(--color-light);
+  border-radius: 1rem;
+  box-shadow: var(--section-shadow);
+}
+
+.slides,
+.quote-wrapper {
+  width: 500%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.quote-wrapper {
+  overflow: hidden;
+}
+
+.slide {
+  transition: all 0.5s ease-in-out;
+  border-radius: 0.9rem 0.9rem 0 0;
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  width: 20%;
+}
+
+.mem-1 {
+  background-image: url(../../assets/interests/places.JPG);
+}
+
+.mem-2 {
+  background-image: url(../../assets/interests/traveling.jpg);
+}
+
+.mem-3 {
+  background-image: url(../../assets/interests/orienteering.jpg);
+}
+
+.mem-4 {
+  background-image: url(../../assets/interests/training.JPG);
+}
+
+.mem-5 {
+  background-image: url(../../assets/interests/skating.jpg);
+}
+
+.slider-controls {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider-quotes {
+  width: 100%;
+  overflow: hidden;
+  color: var(--color-text-main);
+  font-size: 1.8em;
+}
+
+.quote {
+  padding-left: 0.5%;
+  width: 20%;
+  height: auto;
+  margin: 0;
+}
+
+input {
+  display: none;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  padding-left: 1%;
+}
+
+.label {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.label:hover {
+  opacity: 0.6;
+  transform: scale(1.3);
+}
+
+.custom {
+  opacity: 1;
+  display: block;
+  padding: 0.1rem;
+  width: 0.2rem;
+  height:0.2rem;
+  opacity: 0.9;
+  background: var(--color-card-button);
+  cursor: pointer;
+  clip-path: circle(20% at 50% 50%);
+  height: 3.5em;
+  width: 3em;
+}
+
+#radio-1:checked ~ .slider-controls label:nth-child(1),
+#radio-2:checked ~ .slider-controls label:nth-child(2),
+#radio-3:checked ~ .slider-controls label:nth-child(3),
+#radio-4:checked ~ .slider-controls label:nth-child(4),
+#radio-5:checked ~ .slider-controls label:nth-child(5) {
+  opacity: 1;
+  transform: scale(1.4);
+}
+
+
+
+#radio-1:checked ~ .slides .active {
+  margin-left: 0;
+}
+
+#radio-2:checked ~ .slides .active {
+  margin-left: -20%;
+}
+
+#radio-3:checked ~ .slides .active {
+  margin-left: -40%;
+}
+
+#radio-4:checked ~ .slides .active {
+  margin-left: -60%;
+}
+
+#radio-5:checked ~ .slides .active {
+  margin-left: -80%;
+}
+
+
+
+#radio-1:checked ~ .slider-controls .quote-wrapper {
+  margin-left: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+#radio-2:checked ~ .slider-controls .quote-wrapper {
+  margin-left: -100%;
+  transition: all 0.5s ease-in-out;
+}
+
+#radio-3:checked ~ .slider-controls .quote-wrapper {
+  margin-left: -200%;
+  transition: all 0.5s ease-in-out;
+}
+
+#radio-4:checked ~ .slider-controls .quote-wrapper {
+  margin-left: -300%;
+  transition: all 0.5s ease-in-out;
+}
+
+#radio-5:checked ~ .slider-controls .quote-wrapper {
+  margin-left: -400%;
+  transition: all 0.5s ease-in-out;
+}
+
+
+
+@media (max-width: 1279px) {
+
+  .header .mem-around {
+      width: 8%;
+      height: auto;
+  }
+
+  .slider-wrapper {
+      width: 60vw;
+  }
+
+  .custom {
+      width: 3em;
+  }
+}
+
+@media (max-width: 767px) {
+  .custom {
+      width: 3em;
+  }
+
+  .slider-wrapper {
+      width: 96vw;
+  }
+
+  .slider-controls {
+      margin-top: 1vh;
+      margin-bottom: 1vh;
+      display: flex;
+      justify-content: center;
+      flex-direction: column-reverse;
+  }
+  
+  .quote-wrapper {
+      padding-bottom: 1vh;
+  }
+
+  .quote {
+      padding-left: 0.3%;
+  }
+}
