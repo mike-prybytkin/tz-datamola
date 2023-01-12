@@ -1,0 +1,17 @@
+.footer__wrapper {
+  padding: 120px 0 40px;
+  text-align: center;
+}
+
+.footer__button {
+  animation: animate_up 1.5s infinite;
+}
+
+@keyframes animate_up {
+	0% {
+		transform: translateY(20px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}

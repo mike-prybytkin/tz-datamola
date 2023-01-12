@@ -3,6 +3,7 @@
 @import './base/normalize.css';
 @import './base/base.css';
 
+@import './components/buttons.css';
 @import './components/slider.css';
 @import './components/burger-menu.css';
 @import './components/columns.css';
@@ -17,3 +18,5 @@
 @import './layout/skills.css';
 @import './layout/portfolio.css';
 @import './layout/interests.css';
+@import './layout/self-introduction.css';
+@import './layout/footer.css';

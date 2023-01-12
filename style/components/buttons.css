@@ -1,0 +1,25 @@
+.button {
+  border: none;
+  outline: none;
+  background: transparent;
+  transition: all .3s ease-in-out;
+  font-size: 1.4rem;
+}
+
+.button__text {
+  display: inline-block;
+  transition: all .3s ease-in-out;
+}
+
+.button:hover .button__text {
+  transform: scale(1.1);
+  text-shadow: var(--text-shadow-link);
+}
+
+.button_colored {
+  background: var(--color-main);
+  color: var(--color-light);
+  padding: 6px 20px;
+  border-radius: 5px;
+  box-shadow: var(--section-shadow);
+}

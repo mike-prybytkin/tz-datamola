@@ -1,0 +1,15 @@
+.self-introduction {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.self-introduction__video {
+  box-shadow: var(--section-shadow);
+  width: 560px;
+  height: 315px;
+}
+
+.self-introduction__description {
+  font-size: 1.4rem;
+  margin: 20px 0;
+}
