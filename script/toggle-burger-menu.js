@@ -1,7 +1,6 @@
 const clickLinksListener = (linksContainer, burgerButton) => {
   linksContainer.addEventListener('click', (event) => {
     if (event.target.classList.contains('nav__link')) {
-      console.log(linksContainer);
       linksContainer.classList.remove('is-active');
       burgerButton.classList.remove('is-active');
     }
@@ -17,6 +16,5 @@ const toggleBurgerMenu = () => {
     burgerButton.classList.toggle('is-active');
   });
 }
-
 
 export default toggleBurgerMenu;

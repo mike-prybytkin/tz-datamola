@@ -19,13 +19,20 @@
       <div class="nav-menu">
         <div class="nav-menu__heading"><span>M</span></div>
         <ul class="nav-menu__items">
-          <li class="nav-menu__item"><a class="link nav__link" href="#header"><i class="fa fa-user"></i>HOME</a></li>
-          <li class="nav-menu__item"><a class="link nav__link" href="#about-line"><i class="fa fa-dashboard"></i>ABOUT</a></li>
-          <li class="nav-menu__item"><a class="link nav__link" href="#education"><i class="fa fa-graduation-cap"></i>EDUCATION</a></li>
-          <li class="nav-menu__item"><a class="link nav__link" href="#skills"><i class="fa fa-sliders"></i>SKILLS</a></li>
-          <li class="nav-menu__item"><a class="link nav__link" href="#portfolio"><i class="fa fa-archive"></i>PORTFOLIO</a></li>
-          <li class="nav-menu__item"><a class="link nav__link" href="#interests"><i class="fa fa-heart"></i>INTERESTS</a></li>
-          <li class="nav-menu__item"><a class="link nav__link" href="#self-introduction"><i class="fa fa-video-camera"></i>SELF INTRODUCTION</a></li>
+          <li class="nav-menu__item"><a class="link" href="#header"><i class="fa fa-user"></i><span class="nav__link"
+                data-i18="home">HOME</span></a></li>
+          <li class="nav-menu__item"><a class="link" href="#about-line"><i class="fa fa-dashboard"></i><span
+                class="nav__link" data-i18="about">ABOUT</span></a></li>
+          <li class="nav-menu__item"><a class="link" href="#education"><i class="fa fa-graduation-cap"></i><span
+                class="nav__link" data-i18="education">EDUCATION</span></a></li>
+          <li class="nav-menu__item"><a class="link" href="#skills"><i class="fa fa-sliders"></i><span class="nav__link"
+                data-i18="skills">SKILLS</span></a></li>
+          <li class="nav-menu__item"><a class="link" href="#portfolio"><i class="fa fa-archive"></i><span
+                class="nav__link" data-i18="portfolio">PORTFOLIO</span></a></li>
+          <li class="nav-menu__item"><a class="link" href="#interests"><i class="fa fa-heart"></i><span
+                class="nav__link" data-i18="interests">INTERESTS</span></a></li>
+          <li class="nav-menu__item"><a class="link" href="#self-introduction"><i class="fa fa-video-camera"></i><span
+                class="nav__link" data-i18="introduction">SELF-INTRODUCTION</span></a></li>
         </ul>
       </div>
       <div class="nav-buttons">
@@ -34,7 +41,7 @@
           <span class="burger__line"></span>
           <span class="burger__line"></span>
         </button>
-        <button class="button nav-button nav-button_toggle-lang">RU</button>
+        <button class="button nav-button nav-button_toggle-lang" data-i18="buttonLang">EN</button>
         <button class="button nav-button nav-button_toggle-theme"><i class="fa fa-moon-o"></i></button>
       </div>
     </nav>
@@ -45,15 +52,16 @@
       <div class="wrapper">
         <div class="person__wrapper layout-3-column">
           <div class="person__info">
-            <h1 class="person__name">Mihail Prybytkin</h1>
-            <p class="person__position">Junior Front-end Developer</p>
+            <h1 class="person__name" data-i18="personName">Mihail Prybytkin</h1>
+            <p class="person__position" data-i18="personPosition">Junior Front-end Developer</p>
             <ul class="person__contacts">
               <li class="person__contact person__contact_email"><i class="fa fa-envelope"></i><a class="link"
                   href="mailto:prybytkin.you@gmail.com">prybytkin.you@gmail.com</a></li>
-              <li class="person__contact person__contact_telephone"><i class="fa fa-phone"></i><a class="link" href="tel:+375291590945"
-                  title="telephone">+375 (29) 159-09-45</a></li>
+              <li class="person__contact person__contact_telephone"><i class="fa fa-phone"></i><a class="link"
+                  href="tel:+375291590945" title="telephone">+375 (29) 159-09-45</a></li>
               <li class="person__contact person__contact_telegram"><i class="fa fa-telegram"></i>@hey_who_is_this</li>
-              <li class="person__contact person__contact_location"><i class="fa fa-map-marker"></i>Minsk, Belarus</li>
+              <li class="person__contact person__contact_location"><i class="fa fa-map-marker"></i><span
+                  data-i18="personLocation">Minsk, Belarus</span></li>
             </ul>
             <div class="person__social-media">
               <a class="link linkedin" href="https://www.linkedin.com/in/prybytkin-mike/" title="linkedin"
@@ -72,7 +80,7 @@
     <section class="about">
       <div class="wrapper about__wrapper">
         <div class="line-between-sections" id="about-line"></div>
-        <div class="about__content">
+        <div class="about__content" data-i18="aboutContent">
           Hello!
           My name is Mihail, I'm a junior Front-end developer. Last year I studied at The Rolling Scopes School. During
           my studies, I mastered at a good level such technologies as HTML, CSS (SCSS), JavaScript, TypeScript, React,
@@ -87,15 +95,15 @@
     <section class="education" id="education">
       <div class="wrapper education__wrapper">
         <h2 class="section-heading"><img class="section-heading__icon" src="./assets/icons/book.png"
-            alt="book icon" />EDUCATION</h2>
+            alt="book icon" /><span data-i18="education">EDUCATION</span></h2>
         <div class="education-timeline">
           <div class="card">
             <div class="card__timeline-dot"><span>R</span></div>
             <div class="card__content">
               <h3 class="card__skill">REACT</h3>
               <p class="card__school">RS School</p>
-              <p class="card__date">Sept 2022 - Dec 2022</p>
-              <p class="card__description">
+              <p class="card__date" data-i18="cardDateReact">Sept 2022 - Dec 2022</p>
+              <p class="card__description" data-i18="cardDescriptionReact">
                 Learning React and additional libraries needed to perform tasks of different levels. Execution of a
                 course project in a team.
               </p>
@@ -108,8 +116,8 @@
             <div class="card__content">
               <h3 class="card__skill">FRONT-END/JAVASCRIPT</h3>
               <p class="card__school">RS School</p>
-              <p class="card__date">Mar 2022 - Sep 2022</p>
-              <p class="card__description">
+              <p class="card__date" data-i18="cardDateFrontEnd">Mar 2022 - Sep 2022</p>
+              <p class="card__description" data-i18="cardDescriptionFrontEnd">
                 A comprehensive course on the study of modern web technologies and development tools. Execution of a
                 course project in a team.
               </p>
@@ -122,8 +130,8 @@
             <div class="card__content">
               <h3 class="card__skill">PRE-SCHOOL JS/FE</h3>
               <p class="card__school">RS School</p>
-              <p class="card__date">Dec 2021 - Feb 2022</p>
-              <p class="card__description">
+              <p class="card__date" data-i18="cardDatePreSchool">Dec 2021 - Feb 2022</p>
+              <p class="card__description" data-i18="cardDescriptionPreSchool">
                 Preparatory stage before the main course of RS School. Learning the basics of SCSS, JS, Figma, etc.
               </p>
               <button class="button card__button"><i class="fa fa-ellipsis-h"></i></button>
@@ -134,9 +142,9 @@
             <div class="card__timeline-dot"><span>H</span></div>
             <div class="card__content">
               <h3 class="card__skill">HTML, CSS, JavaScript</h3>
-              <p class="card__school">IT-Academy</p>
-              <p class="card__date">Nov 2020 - Feb 2021</p>
-              <p class="card__description">
+              <p class="card__school" data-i18="cardSchoolItAcademy">IT-Academy</p>
+              <p class="card__date" data-i18="cardDateItAcademy">Nov 2020 - Feb 2021</p>
+              <p class="card__description" data-i18="cardDescriptionItAcademy">
                 Website development with HTML, CSS & JavaScript.
               </p>
               <button class="button card__button"><i class="fa fa-ellipsis-h"></i></button>
@@ -146,10 +154,10 @@
           <div class="card">
             <div class="card__timeline-dot"><span><i class="fa fa-graduation-cap"></i></span></div>
             <div class="card__content">
-              <h3 class="card__skill">Electronics Engineer</h3>
-              <p class="card__school">BSUIR</p>
-              <p class="card__date">Sept 2014 - Feb 2018</p>
-              <p class="card__description">
+              <h3 class="card__skill" data-i18="cardSkillBsuir">Electronics Engineer</h3>
+              <p class="card__school" data-i18="cardSchoolBsuir">BSUIR</p>
+              <p class="card__date" data-i18="cardDateBsuir">Sept 2014 - Feb 2018</p>
+              <p class="card__description" data-i18="cardDescriptionBsuir">
                 Bachelor's degree in Industrial Electronics.
               </p>
             </div>
@@ -160,11 +168,11 @@
     <section class="skills" id="skills">
       <div class="wrapper skills__wrapper">
         <h2 class="section-heading"><img class="section-heading__icon" src="./assets/icons/mixer.png"
-            alt="book icon" />SKILLS</h2>
+            alt="book icon" /><span data-i18="skills">SKILLS</span></h2>
         <div class="skills-background">
           <div class="skills__wrapper layout-3-column">
             <div class="skills-column">
-              <h4 class="skills-column__heading">Professional</h4>
+              <h4 class="skills-column__heading" data-i18="skillsProfessional">Professional</h4>
               <div class="skills-column__skill skill">
                 <label class="skill__name" for="HTML5">HTML5</label>
                 <span class="skill__experience">80%</span>
@@ -213,41 +221,44 @@
             </div>
 
             <div class="skills-column">
-              <h4 class="skills-column__heading">Personal</h4>
+              <h4 class="skills-column__heading" data-i18="skillsPersonal">Personal</h4>
               <div class="skills-column__skill skill">
-                <label class="skill__name" for="eagerness-to-learn">Eagerness to learn</label>
+                <label class="skill__name" for="eagerness-to-learn" data-i18="PersonalSkillLearn">Eagerness to
+                  learn</label>
                 <span class="skill__experience">99%</span>
                 <progress class="skill__line" class="progress" id="eagerness-to-learn" max="100" value="99"></progress>
               </div>
               <div class="skills-column__skill skill">
-                <label class="skill__name" for="teamwork">Not afraid to ask questions</label>
+                <label class="skill__name" for="teamwork" data-i18="PersonalSkillNotAfraid">Not afraid to ask
+                  questions</label>
                 <span class="skill__experience">99%</span>
                 <progress class="skill__line" class="progress" id="teamwork" max="100" value="99"></progress>
               </div>
               <div class="skills-column__skill skill">
-                <label class="skill__name" for="communication">Communication</label>
+                <label class="skill__name" for="communication"
+                  data-i18="PersonalSkillCommunication">Communication</label>
                 <span class="skill__experience">95%</span>
                 <progress class="skill__line" class="progress" id="communication" max="100" value="95"></progress>
               </div>
               <div class="skills-column__skill skill">
-                <label class="skill__name" for="teamwork">Teamwork</label>
+                <label class="skill__name" for="teamwork" data-i18="PersonalSkillTeamwork">Teamwork</label>
                 <span class="skill__experience">75%</span>
                 <progress class="skill__line" class="progress" id="teamwork" max="100" value="75"></progress>
               </div>
               <div class="skills-column__skill skill">
-                <label class="skill__name" for="sense-of-humor">Sense of humor</label>
+                <label class="skill__name" for="sense-of-humor" data-i18="PersonalSkillHumor">Sense of humor</label>
                 <span class="skill__experience">75%</span>
                 <progress class="skill__line" class="progress" id="sense-of-humor" max="100" value="75"></progress>
               </div>
               <div class="skills-column__skill skill">
-                <label class="skill__name" for="sense-of-humor">English A2+</label>
+                <label class="skill__name" for="sense-of-humor" data-i18="PersonalSkillEnglish">English A2+</label>
                 <span class="skill__experience">20%</span>
                 <progress class="skill__line" class="progress" id="sense-of-humor" max="100" value="20"></progress>
               </div>
             </div>
 
             <div class="skills-column">
-              <h4 class="skills-column__heading">Software</h4>
+              <h4 class="skills-column__heading" data-i18="skillsSoftware">Software</h4>
               <div class="skills-column__skill skill">
                 <label class="skill__name" for="vc-code">VS Code</label>
                 <span class="skill__experience">75%</span>
@@ -271,66 +282,76 @@
     <section class="portfolio" id="portfolio">
       <div class="wrapper portfolio__wrapper">
         <h2 class="section-heading"><img class="section-heading__icon" src="./assets/icons/safe.png"
-            alt="book icon" />PORTFOLIO</h2>
+            alt="book icon" /><span data-i18="portfolio">PORTFOLIO</span></h2>
         <div class="portfolio__list layout-3-column">
           <div class="portfolio__item item">
             <img class="item__img" src="./assets/img/kanban.png" alt="kanban">
             <div class="item__caption">
               <h5>Kanban</h5>
-              <p class="item__about">Project Management System</p>
-              <p class="item__stack"><span>stack:</span> React, Material UI, TypeScript, Heroku</p>
+              <p class="item__about" data-i18="portfolioAboutKanban">Project Management System</p>
+              <p class="item__stack"><span data-i18="portfolioStack">stack:</span> React, Material UI, TypeScript,
+                Heroku</p>
               <a class="button button_colored item__link" href="https://comfy-peony-73495c.netlify.app/" target="_blank"
-                title="Kanban"><span class="button__text">Click!</span></a>
+                title="Kanban"><span class="button__text" data-i18="portfolioProjectLink">Click!</span></a>
             </div>
           </div>
           <div class="portfolio__item item">
             <img class="item__img" src="./assets/img/rs-lang.png" alt="rs-lang">
             <div class="item__caption">
               <h5>RS-Lang</h5>
-              <p class="item__about">Application for learning English</p>
-              <p class="item__stack"><span>stack:</span> HTML, SCSS, TypeScript, Materialize CSS, Webpack, Heroku</p>
-              <a class="button button_colored item__link" href="https://mike-prybytkin.github.io/RS-Lang/" target="_blank"
-                title="RS-Lang"><span class="button__text">Click!</span></a>
+              <p class="item__about" data-i18="portfolioAboutRSLang">Application for learning English</p>
+              <p class="item__stack"><span data-i18="portfolioStack">stack:</span> HTML, SCSS, TypeScript, Materialize
+                CSS, Webpack, Heroku</p>
+              <a class="button button_colored item__link" href="https://mike-prybytkin.github.io/RS-Lang/"
+                target="_blank" title="RS-Lang"><span class="button__text"
+                  data-i18="portfolioProjectLink">Click!</span></a>
             </div>
           </div>
           <div class="portfolio__item item">
             <img class="item__img" src="./assets/img/shelter.png" alt="shelter">
             <div class="item__caption">
               <h5>Shelter</h5>
-              <p class="item__about">Shelter for pets</p>
-              <p class="item__stack"><span>stack:</span> HTML, SCSS, JavaScript, Prepros</p>
-              <a class="button button_colored item__link" href="https://mike-prybytkin.github.io/Shelter-website/shelter/pages/main"
-                target="_blank" title="Shelter"><span class="button__text">Click!</span></a>
+              <p class="item__about" data-i18="portfolioAboutShelter">Shelter for pets</p>
+              <p class="item__stack"><span data-i18="portfolioStack">stack:</span> HTML, SCSS, JavaScript, Prepros</p>
+              <a class="button button_colored item__link"
+                href="https://mike-prybytkin.github.io/Shelter-website/shelter/pages/main" target="_blank"
+                title="Shelter"><span class="button__text" data-i18="portfolioProjectLink">Click!</span></a>
             </div>
           </div>
           <div class="portfolio__item item">
             <img class="item__img" src="./assets/img/virtual-keyboard.png" alt="virtual-keyboard">
             <div class="item__caption">
               <h5>Virtual keyboard</h5>
-              <p class="item__about">Real keyboard with support for multiple languages</p>
-              <p class="item__stack"><span>stack:</span> HTML, SCSS, JavaScript, Prepros</p>
-              <a class="button button_colored item__link" href="https://mike-prybytkin.github.io/RSS-Virtual-Keyboard/" target="_blank"
-                title="Virtual Keyboard"><span class="button__text">Click!</span></a>
+              <p class="item__about" data-i18="portfolioAboutKeyboard">Real keyboard with support for multiple languages
+              </p>
+              <p class="item__stack"><span data-i18="portfolioStack">stack:</span> HTML, SCSS, JavaScript, Prepros</p>
+              <a class="button button_colored item__link" href="https://mike-prybytkin.github.io/RSS-Virtual-Keyboard/"
+                target="_blank" title="Virtual Keyboard"><span class="button__text"
+                  data-i18="portfolioProjectLink">Click!</span></a>
             </div>
           </div>
           <div class="portfolio__item item">
             <img class="item__img" src="./assets/img/antools.png" alt="antools">
             <div class="item__caption">
               <h5>Antools</h5>
-              <p class="item__about">Layout without adaptive</p>
-              <p class="item__stack"><span>stack:</span> HTML, SCSS, TypeScript, Webpack, Fontawesome, Swiper</p>
-              <a class="button button_colored item__link" href="https://mike-prybytkin.github.io/tz-dev-crew/" target="_blank"
-                title="antools"><span class="button__text">Click!</span></a>
+              <p class="item__about" data-i18="portfolioAboutAntools">Layout without adaptive (according to the terms of
+                reference)</p>
+              <p class="item__stack"><span data-i18="portfolioStack">stack:</span> HTML, SCSS, TypeScript, Webpack,
+                Fontawesome, Swiper</p>
+              <a class="button button_colored item__link" href="https://mike-prybytkin.github.io/tz-dev-crew/"
+                target="_blank" title="antools"><span class="button__text"
+                  data-i18="portfolioProjectLink">Click!</span></a>
             </div>
           </div>
           <div class="portfolio__item item">
             <img class="item__img" src="./assets/img/tic-tac-toe.png" alt="tic-tac-toe">
             <div class="item__caption">
               <h5>Tic-Tac-Toe</h5>
-              <p class="item__about">Tic-Tac-Toe game</p>
-              <p class="item__stack"><span>stack:</span> HTML, CSS, JavaScript</p>
-              <a class="button button_colored item__link" href="https://mike-prybytkin.github.io/tic-tac-toe/tic-tac-toe/"
-                target="_blank" title="tic tac toe"><span class="button__text">Click!</span></a>
+              <p class="item__about" data-i18="portfolioAboutTTT">Tic-Tac-Toe game</p>
+              <p class="item__stack"><span data-i18="portfolioStack">stack:</span> HTML, CSS, JavaScript</p>
+              <a class="button button_colored item__link"
+                href="https://mike-prybytkin.github.io/tic-tac-toe/tic-tac-toe/" target="_blank"
+                title="tic tac toe"><span class="button__text" data-i18="portfolioProjectLink">Click!</span></a>
             </div>
           </div>
         </div>
@@ -339,7 +360,7 @@
     <section class="interests" id="interests">
       <div class="wrapper">
         <h2 class="section-heading"><img class="section-heading__icon" src="./assets/icons/heart.png"
-            alt="book icon" />INTERESTS</h2>
+            alt="book icon" /><span data-i18="interests">INTERESTS</span></h2>
         <div class="interests__wrapper">
           <div class="slider-wrapper">
             <input type="radio" name="rad" id="radio-1" checked>
@@ -359,11 +380,11 @@
             <div class="slider-controls">
               <div class="slider-quotes">
                 <div class="quote-wrapper">
-                  <p class="quote">Traveling</p>
-                  <p class="quote">Traveling by bike</p>
-                  <p class="quote">Orienteering</p>
-                  <p class="quote">Running and sports exercises</p>
-                  <p class="quote">Rollerblading</p>
+                  <p class="quote" data-i18="quoteTraveling">Traveling</p>
+                  <p class="quote" data-i18="quoteTravelingByBike">Traveling by bike</p>
+                  <p class="quote" data-i18="quoteOrienteering">Orienteering</p>
+                  <p class="quote" data-i18="quoteRunning">Running and sports exercises</p>
+                  <p class="quote" data-i18="quoteRollerblading">Rollerblading</p>
                 </div>
               </div>
 
@@ -382,13 +403,14 @@
     <section class="self-introduction" id="self-introduction">
       <div class="wrapper self-introduction__wrapper">
         <h2 class="section-heading"><img class="section-heading__icon" src="./assets/icons/video.png"
-            alt="book icon" />SELF INTRODUCTION</h2>
+            alt="book icon" /><span data-i18="introduction">SELF-INTRODUCTION</span></h2>
         <iframe class="self-introduction__video" src="https://www.youtube.com/embed/wqJa7LhlQpM"
           title="YouTube video player" frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen></iframe>
-        <p class="self-introduction__description">
-          I present the video as a self-presentation. A little about achievement, a little humor and a little English with subtitles. I put my soul into this video, you won't regret it.
+        <p class="self-introduction__description" data-i18="introductionDescription">
+          I present the video as a self-presentation. A little about achievement, a little humor and a little English
+          with subtitles. I put my soul into this video, you won't regret it.
         </p>
       </div>
     </section>
@@ -396,9 +418,11 @@
   <footer class="footer">
     <div class="wrapper footer__wrapper">
       <div class="line-between-sections"></div>
-      <a class="button button_colored footer__button" href="#header" ><span class="button__text">GO UP <i class="fa fa-arrow-up"></i></span></a>
+      <a class="button button_colored footer__button" href="#header"><span class="button__text"><span data-i18="footerButtonGoUp">GO UP</span> <i
+            class="fa fa-arrow-up"></i></span></a>
     </div>
   </footer>
   <script type="module" src="./script/index.js"></script>
 </body>
+
 </html>

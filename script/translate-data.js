@@ -1,0 +1,123 @@
+const i18Obj = {
+  en: {
+    home: 'HOME',
+    about: 'ABOUT',
+    education: 'EDUCATION',
+    skills: 'SKILLS',
+    portfolio: 'PORTFOLIO',
+    interests: 'INTERESTS',
+    introduction: 'SELF-INTRODUCTION',
+    buttonLang: 'EN',
+    personName: 'Mihail Prybytkin',
+    personPosition: 'Junior Front-end Developer',
+    personLocation: 'Minsk, Belarus',
+    aboutContent:
+      "Hello! My name is Mihail, I'm a junior Front-end developer. Last year I studied at The Rolling Scopes School. During my studies, I mastered at a good level such technologies as HTML, CSS (SCSS), JavaScript, TypeScript, React, Webpack, Figma, etc. They are constantly used in the development of both single-page and multi-page applications. I have created a lot of pet projects, I am constantly expanding and deepening my knowledge in web technologies. I would like to draw your attention to the fact that RS School is a free school from the community. I got all the knowledge thanks to motivation, desire and perseverance.",
+    cardDateReact: 'Sept 2022 - Dec 2022',
+    cardDescriptionReact:
+      'Learning React and additional libraries needed to perform tasks of different levels. Execution of a course project in a team.',
+    cardDateFrontEnd: 'Mar 2022 - Sep 2022',
+    cardDescriptionFrontEnd:
+      'A comprehensive course on the study of modern web technologies and development tools. Execution of a course project in a team.',
+    cardDatePreSchool: 'Dec 2021 - Feb 2022',
+    cardDescriptionPreSchool:
+      'Preparatory stage before the main course of RS School. Learning the basics of SCSS, JS, Figma, etc.',
+    cardSchoolItAcademy: 'IT-Academy',
+    cardDateItAcademy: 'Nov 2020 - Feb 2021',
+    cardDescriptionItAcademy:
+      'Website development with HTML, CSS & JavaScript.',
+    cardSkillBsuir: 'Electronics Engineer',
+    cardSchoolBsuir: 'BSUIR',
+    cardDateBsuir: 'Sept 2014 - Feb 2018',
+    cardDescriptionBsuir: "Bachelor's degree in Industrial Electronics.",
+    skillsProfessional: 'Professional',
+    skillsPersonal: 'Personal',
+    PersonalSkillLearn: 'Eagerness to learn',
+    PersonalSkillNotAfraid: 'Not afraid to ask questions',
+    PersonalSkillCommunication: 'Communication95',
+    PersonalSkillTeamwork: 'Teamwork',
+    PersonalSkillHumor: 'Sense of humor',
+    PersonalSkillEnglish: 'English A2+',
+    skillsSoftware: 'Software',
+    portfolioStack: 'stack:',
+    portfolioProjectLink: 'Click!',
+    portfolioAboutKanban: 'Project Management System',
+    portfolioAboutRSLang: 'Application for learning English',
+    portfolioAboutShelter: 'Pet Shelter website',
+    portfolioAboutKeyboard:
+      'Virtual keyboard with support for multiple languages',
+    portfolioAboutAntools:
+      'Layout without adaptive (according to the terms of reference)',
+    portfolioAboutTTT: 'Tic-Tac-Toe game',
+    quoteTraveling: 'Traveling',
+    quoteTravelingByBike: 'Traveling by bike',
+    quoteOrienteering: 'Orienteering',
+    quoteRunning: 'Running and sports exercises',
+    quoteRollerblading: 'Rollerblading',
+    introductionDescription:
+      "I present the video as a self-presentation. A little about achievement, a little humor and a little English with subtitles. I put my soul into this video, you won't regret it.",
+    footerButtonGoUp: 'GO UP',
+  },
+
+  ru: {
+    home: 'В НАЧАЛО',
+    about: 'О СЕБЕ',
+    education: 'ОБРАЗОВАНИЕ',
+    skills: 'НАВЫКИ',
+    portfolio: 'ПОРТФОЛИО',
+    interests: 'ИНТЕРЕСЫ',
+    introduction: 'САМОПРЕЗЕНТАЦИЯ',
+    buttonLang: 'RU',
+    personName: 'Михаил Прибыткин',
+    personPosition: 'младший Front-end разработчик',
+    personLocation: 'Минск, Беларусь',
+    aboutContent:
+      'Здравствуйте! Меня зовут Михаил, я начинающий Front-end разработчик. Последний год я проходил обучение в The Rolling Scopes School. За время обучения усвоил на хорошем уровне такие технологии как HTML, CSS, JavaScript, TypeScript, React, Webpack, Figma и др. Постоянно использую их при разработке как одностраничных, так и многостраничных приложений. Создал множество пет-проектов, постоянно расширяю и углубляю свои знания в web-технологиях. Хочу обратить внимание, что RS School это бесплатная школа от комьюнити Front-end разработчиков. Все свои знания я получил благодаря мотивации, желанию и упорству.',
+    cardDateReact: 'Сент 2022 - Дек 2022',
+    cardDescriptionReact:
+      'Изучение React и дополнительных библиотек, необходимых для выполнения задач разного уровня. Выполнение курсового проекта в команде.',
+    cardDateFrontEnd: 'Март 2022 - Сент 2022',
+    cardDescriptionFrontEnd:
+      'Комплексный курс по изучению современных веб-технологий и средств разработки. Выполнение курсового проекта в команде.',
+    cardDatePreSchool: 'Дек 2021 - Февр 2022',
+    cardDescriptionPreSchool:
+      'Подготовительный этап перед основным курсом RS School. Изучение основ SCSS, JS, Figma и др.',
+    cardSchoolItAcademy: 'ИТ-Академия',
+    cardDateItAcademy: 'Нояб 2020 - Февр 2021',
+    cardDescriptionItAcademy:
+      'Разработка веб-сайтов с использованием HTML, CSS и JavaScript.',
+    cardSkillBsuir: 'Инженер по радиоэлектронике',
+    cardSchoolBsuir: 'БГУИР',
+    cardDateBsuir: 'Сент 2014 - Февр 2018',
+    cardDescriptionBsuir:
+      'Степень бакалавра в области промышленной электроники.',
+    skillsProfessional: 'Профессиональные',
+    skillsPersonal: 'Личные',
+    PersonalSkillLearn: 'Стремление учиться',
+    PersonalSkillNotAfraid: 'Не боюсь задавать вопросы',
+    PersonalSkillCommunication: 'Коммуникабельность',
+    PersonalSkillTeamwork: 'Работа в команде',
+    PersonalSkillHumor: 'Чувство юмора',
+    PersonalSkillEnglish: 'Английский язык A2+',
+    skillsSoftware: 'Работа с ПО',
+    portfolioStack: 'технологии:',
+    portfolioProjectLink: 'Клац!',
+    portfolioAboutKanban: 'Система управления проектами',
+    portfolioAboutRSLang: 'Приложение для изучения английского языка',
+    portfolioAboutShelter: 'Сайт приюта для домашних животных',
+    portfolioAboutKeyboard:
+      'Виртуальная клавиатура с поддержкой нескольких языков',
+    portfolioAboutAntools:
+      'Вёрстка без адаптива (согласно техническому заданию)',
+    portfolioAboutTTT: 'Игра крестики-нолики',
+    quoteTraveling: 'Путешествия',
+    quoteTravelingByBike: 'Путешествия на велосипеде',
+    quoteOrienteering: 'Спортивное ориентирование',
+    quoteRunning: 'Бег и физические упражнения',
+    quoteRollerblading: 'Кататься на роликах',
+    introductionDescription:
+      'Представляю видео-самопрезентацию. Немного о достижениях, немного юмора и немного английского с субтитрами. В это видео я вложил душу, вы не пожалеете.',
+    footerButtonGoUp: 'В НАЧАЛО',
+  },
+};
+export default i18Obj;
