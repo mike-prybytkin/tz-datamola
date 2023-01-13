@@ -15,7 +15,29 @@
 
 <body>
   <header class="header" id="header">
-    <nav class="nav"></nav>
+    <nav class="nav">
+      <div class="nav-menu">
+        <div class="nav-menu__heading"><span>M</span></div>
+        <ul class="nav-menu__items">
+          <li class="nav-menu__item"><a class="link nav__link" href="#header"><i class="fa fa-user"></i>HOME</a></li>
+          <li class="nav-menu__item"><a class="link nav__link" href="#about-line"><i class="fa fa-dashboard"></i>ABOUT</a></li>
+          <li class="nav-menu__item"><a class="link nav__link" href="#education"><i class="fa fa-graduation-cap"></i>EDUCATION</a></li>
+          <li class="nav-menu__item"><a class="link nav__link" href="#skills"><i class="fa fa-sliders"></i>SKILLS</a></li>
+          <li class="nav-menu__item"><a class="link nav__link" href="#portfolio"><i class="fa fa-archive"></i>PORTFOLIO</a></li>
+          <li class="nav-menu__item"><a class="link nav__link" href="#interests"><i class="fa fa-heart"></i>INTERESTS</a></li>
+          <li class="nav-menu__item"><a class="link nav__link" href="#self-introduction"><i class="fa fa-video-camera"></i>SELF INTRODUCTION</a></li>
+        </ul>
+      </div>
+      <div class="nav-buttons">
+        <button class="button nav-button nav-button_toggle-menu burger">
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+        </button>
+        <button class="button nav-button nav-button_toggle-lang">RU</button>
+        <button class="button nav-button nav-button_toggle-theme"><i class="fa fa-moon-o"></i></button>
+      </div>
+    </nav>
     <div class="header-background"></div>
   </header>
   <main class="main">
@@ -49,7 +71,7 @@
     </section>
     <section class="about">
       <div class="wrapper about__wrapper">
-        <div class="line-between-sections"></div>
+        <div class="line-between-sections" id="about-line"></div>
         <div class="about__content">
           Hello!
           My name is Mihail, I'm a junior Front-end developer. Last year I studied at The Rolling Scopes School. During
@@ -62,7 +84,7 @@
         </div>
       </div>
     </section>
-    <section class="education">
+    <section class="education" id="education">
       <div class="wrapper education__wrapper">
         <h2 class="section-heading"><img class="section-heading__icon" src="./assets/icons/book.png"
             alt="book icon" />EDUCATION</h2>
@@ -135,7 +157,7 @@
         </div>
       </div>
     </section>
-    <section class="skills">
+    <section class="skills" id="skills">
       <div class="wrapper skills__wrapper">
         <h2 class="section-heading"><img class="section-heading__icon" src="./assets/icons/mixer.png"
             alt="book icon" />SKILLS</h2>
@@ -246,7 +268,7 @@
         </div>
       </div>
     </section>
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
       <div class="wrapper portfolio__wrapper">
         <h2 class="section-heading"><img class="section-heading__icon" src="./assets/icons/safe.png"
             alt="book icon" />PORTFOLIO</h2>
@@ -314,7 +336,7 @@
         </div>
       </div>
     </section>
-    <section class="interests">
+    <section class="interests" id="interests">
       <div class="wrapper">
         <h2 class="section-heading"><img class="section-heading__icon" src="./assets/icons/heart.png"
             alt="book icon" />INTERESTS</h2>
@@ -357,7 +379,7 @@
         </div>
       </div>
     </section>
-    <section class="self-introduction">
+    <section class="self-introduction" id="self-introduction">
       <div class="wrapper self-introduction__wrapper">
         <h2 class="section-heading"><img class="section-heading__icon" src="./assets/icons/video.png"
             alt="book icon" />SELF INTRODUCTION</h2>
@@ -377,5 +399,6 @@
       <a class="button button_colored footer__button" href="#header" ><span class="button__text">GO UP <i class="fa fa-arrow-up"></i></span></a>
     </div>
   </footer>
+  <script type="module" src="./script/index.js"></script>
 </body>
 </html>

@@ -24,3 +24,18 @@
   border-radius: 5px;
   box-shadow: var(--section-shadow);
 }
+
+.nav-button {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(93, 92, 92, 0.52);
+  background: rgba(255, 255, 255, 0.632);
+  color: var(--color-card-button-hover);
+  font-size: 2rem;
+}
+
+.nav-button:hover {
+  background: rgba(119, 119, 119, 0.3);
+  color: var(--color-card-button);
+}
