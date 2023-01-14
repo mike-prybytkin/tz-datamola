@@ -34,7 +34,7 @@ const i18Obj = {
     skillsPersonal: 'Personal',
     PersonalSkillLearn: 'Eagerness to learn',
     PersonalSkillNotAfraid: 'Not afraid to ask questions',
-    PersonalSkillCommunication: 'Communication95',
+    PersonalSkillCommunication: 'Communication',
     PersonalSkillTeamwork: 'Teamwork',
     PersonalSkillHumor: 'Sense of humor',
     PersonalSkillEnglish: 'English A2+',

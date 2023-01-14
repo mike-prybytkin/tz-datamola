@@ -4,3 +4,7 @@
   box-shadow: var(--section-shadow);
   text-align: justify;
 }
+
+.dark-theme .about__content {
+  background: var(--color-bg-block-dark);
+}

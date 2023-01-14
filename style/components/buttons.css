@@ -25,6 +25,10 @@
   box-shadow: var(--section-shadow);
 }
 
+.dark-theme .button_colored {
+  background: var(--color-main-dark);
+}
+
 .nav-button {
   display: inline-block;
   width: 30px;
@@ -38,4 +42,16 @@
 .nav-button:hover {
   background: rgba(119, 119, 119, 0.3);
   color: var(--color-card-button);
+}
+
+.nav-button_toggle-theme .fa-sun-o {
+  display: none;
+}
+
+.dark-theme .nav-button_toggle-theme .fa-sun-o {
+  display: block;
+}
+
+.dark-theme .nav-button_toggle-theme .fa-moon-o {
+  display: none;
 }

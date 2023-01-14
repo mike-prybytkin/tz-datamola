@@ -13,3 +13,7 @@
   padding: 10px;
   box-shadow: var(--section-shadow);
 }
+
+.dark-theme .section-heading__icon {
+  background: var(--color-bg-block-dark);
+}

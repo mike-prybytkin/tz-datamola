@@ -18,6 +18,10 @@
   font-weight: 700;
 }
 
+.dark-theme .card__timeline-dot {
+  background: var(--color-main-dark);
+}
+
 .card__timeline-dot span {
   position: relative;
   top: 4px;
@@ -30,6 +34,10 @@
   background: var(--color-light);
   padding: 20px 20px 8px 20px;
   box-shadow: var(--section-shadow);
+}
+
+.dark-theme .card__content {
+  background: var(--color-bg-block-dark);
 }
 
 .card__skill,
@@ -50,6 +58,10 @@
 
 .card__button:hover {
   color: var(--color-card-button-hover);
+}
+
+.dark-theme .card__button:hover {
+  color: var(--color-card-button-hover-dark);
 }
 
 .card__content::before {

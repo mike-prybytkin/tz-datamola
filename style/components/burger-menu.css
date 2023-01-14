@@ -7,8 +7,12 @@
   z-index: 1;
   box-shadow: var(--section-shadow);
   gap: 20px;
-  transition: all 0.4s ease-in-out;
+  transition: var(--transition-global);
   left: -240px;
+}
+
+.dark-theme .nav {
+  background: var(--color-bg-block-dark);
 }
 
 .nav.is-active {
@@ -20,6 +24,10 @@
   height: 240px;
   background: var(--color-main);
   text-align: center;
+}
+
+.dark-theme .nav-menu__heading {
+  background: var(--color-main-dark);
 }
 
 .nav-menu__heading span {
@@ -75,7 +83,7 @@
   width: 30px;
   height: 2px;
   display: block;
-  transition: all 0.3s ease-in-out;
+  transition: var(--transition-global);
   background-color: var(--color-card-button-hover);
 }
 

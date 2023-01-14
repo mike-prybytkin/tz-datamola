@@ -4,8 +4,8 @@ const clickLinksListener = (linksContainer, burgerButton) => {
       linksContainer.classList.remove('is-active');
       burgerButton.classList.remove('is-active');
     }
-  })
-}
+  });
+};
 
 const toggleBurgerMenu = () => {
   const burgerButton = document.querySelector('.nav-button_toggle-menu');
@@ -15,6 +15,6 @@ const toggleBurgerMenu = () => {
     nav.classList.toggle('is-active');
     burgerButton.classList.toggle('is-active');
   });
-}
+};
 
 export default toggleBurgerMenu;
