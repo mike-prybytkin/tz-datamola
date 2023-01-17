@@ -8,6 +8,7 @@
 @import './components/burger-menu.css';
 @import './components/columns.css';
 @import './components/education-card.css';
+@import './components/popup.css';
 
 @import './layout/header.css';
 @import './layout/wrapper.css';
