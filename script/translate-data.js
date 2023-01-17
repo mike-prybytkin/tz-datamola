@@ -1,5 +1,6 @@
 const i18Obj = {
   en: {
+    titleName: 'Prybytkin Mihail CV',
     home: 'HOME',
     about: 'ABOUT',
     education: 'EDUCATION',
@@ -60,6 +61,7 @@ const i18Obj = {
   },
 
   ru: {
+    titleName: 'Прибыткин Михаил - Резюме',
     home: 'В НАЧАЛО',
     about: 'О СЕБЕ',
     education: 'ОБРАЗОВАНИЕ',
