@@ -1,0 +1,10 @@
+.about__content {
+  padding: 40px;
+  font-size: 1.6rem;
+  box-shadow: var(--section-shadow);
+  text-align: justify;
+}
+
+.dark-theme .about__content {
+  background: var(--color-bg-block-dark);
+}

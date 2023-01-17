@@ -1,0 +1,29 @@
+.footer__wrapper {
+  padding: 120px 0 40px;
+  text-align: center;
+}
+
+.footer__button {
+  animation: animate-up 1.5s infinite;
+	padding: 20px;
+}
+
+@keyframes animate-up {
+	0% {
+		transform: translateY(15px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}
+
+@media (max-width: 767px) {
+
+  .footer__wrapper {
+		padding-top: 60px;
+	}
+
+	.footer__line-between-sections {
+		bottom: 40px;
+	}
+}

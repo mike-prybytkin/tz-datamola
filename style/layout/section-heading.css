@@ -1,0 +1,19 @@
+.section-heading {
+  font-family: var(--font-additional);
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+.section-heading__icon {
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+  width: 50px;
+  padding: 10px;
+  box-shadow: var(--section-shadow);
+}
+
+.dark-theme .section-heading__icon {
+  background: var(--color-bg-block-dark);
+}

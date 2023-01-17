@@ -1,0 +1,18 @@
+.wrapper {
+  max-width: var(--desktop-width);
+  margin: auto;
+}
+
+@media (max-width: 1000px) {
+
+  .wrapper {
+    margin: 0 1%;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .wrapper {
+    margin: 0;
+  }
+}
