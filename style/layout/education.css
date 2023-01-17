@@ -17,3 +17,10 @@
   background: var(--color-main);
   width: 4px;
 }
+
+@media (max-width: 880px) {
+
+  .education-timeline::before {
+    height: 91%;
+  }
+}

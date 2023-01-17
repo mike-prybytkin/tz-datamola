@@ -50,3 +50,10 @@ progress::-webkit-progress-bar {
 progress::-webkit-progress-value {
   background-color: var(--color-light);
 }
+
+@media (max-width: 880px) {
+
+  html {
+    font-size: 9px;
+  }
+}

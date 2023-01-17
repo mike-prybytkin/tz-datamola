@@ -81,3 +81,45 @@
   width: 370px;
   object-fit: cover;
 }
+
+@media (max-width: 880px) {
+
+  .person__wrapper {
+    overflow: visible;
+    justify-content: center;
+    height: auto;
+  }
+
+  .person__info {
+    padding: 80px 0 40px 0;
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  .person__contacts {
+    text-align: left;
+    width: 260px;
+    margin-left: calc(50vw - 130px);
+    margin-top: 0;
+  }
+
+  .person__contact {
+    margin-bottom: 10px;
+  }
+
+  .person__slant {
+    display: none;
+  }
+
+  .person__photo-wrapper {
+    left: calc(50vw - 100px) ;
+    top: -120px;
+  }
+
+  .person__photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    box-shadow: var(--section-shadow);
+  }
+}

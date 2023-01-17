@@ -41,3 +41,18 @@
 .skill__experience {
   right: 0;
 }
+
+@media (max-width: 880px) {
+
+  .skills-background {
+    padding: 40px 20px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .skills__wrapper {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+}

@@ -8,8 +8,13 @@
 
 .portfolio__list {
   padding-top: 5px;
-  row-gap: 35px;
+  gap: 35px;
   flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio__item {
+  flex-basis: 300px;
 }
 
 .item {

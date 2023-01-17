@@ -4,7 +4,6 @@
 
 .self-introduction__wrapper {
   text-align: center;
-  margin: auto;
 }
 
 .self-introduction__video {
@@ -18,4 +17,11 @@
   font-size: 1.6rem;
   margin: 20px 0;
   padding: 0 20px;
+}
+
+@media (max-width: 767px) {
+
+  .self-introduction__video {
+    width: 100%;
+  }
 }

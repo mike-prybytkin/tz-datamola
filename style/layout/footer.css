@@ -16,3 +16,14 @@
 		transform: translateY(0px);
 	}
 }
+
+@media (max-width: 767px) {
+
+  .footer__wrapper {
+		padding-top: 60px;
+	}
+
+	.footer__line-between-sections {
+		bottom: 40px;
+	}
+}
