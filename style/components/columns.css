@@ -1,0 +1,15 @@
+.layout-2-column,
+.layout-3-column {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.layout-2-column > * {
+  flex-basis: 45%;
+}
+
+.layout-3-column > * {
+  flex-basis: 30%;
+}
+

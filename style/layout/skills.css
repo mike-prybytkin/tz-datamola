@@ -1,0 +1,58 @@
+.skills-background {
+  color: var(--color-light);
+  background: var(--color-main);
+  box-shadow: var(--section-shadow);
+  padding: 40px;
+  margin-top: 30px;
+}
+
+.dark-theme .skills-background {
+  background: var(--color-main-dark);
+}
+
+
+.skills-column__heading {
+  margin: 0 0 20px;
+  text-align: center;
+  font-size: 2.6rem;
+  text-shadow: var(--text-shadow);
+}
+
+.skills-column__skill {
+  font-size: 1.6rem;
+  position: relative;
+  margin-bottom: 35px;
+}
+
+.skills-column__skill:last-of-type {
+  margin-bottom: 0px;
+}
+
+.skill__name,
+.skill__experience {
+  position: absolute;
+  bottom: 10px;
+}
+
+.skill__name {
+  padding-right: 40px;
+}
+
+.skill__experience {
+  right: 0;
+}
+
+@media (max-width: 880px) {
+
+  .skills-background {
+    padding: 40px 20px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .skills__wrapper {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+}

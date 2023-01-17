@@ -1,0 +1,23 @@
+@import './abstract/variables.css';
+
+@import './base/normalize.css';
+@import './base/base.css';
+
+@import './components/buttons.css';
+@import './components/slider.css';
+@import './components/burger-menu.css';
+@import './components/columns.css';
+@import './components/education-card.css';
+@import './components/popup.css';
+
+@import './layout/header.css';
+@import './layout/wrapper.css';
+@import './layout/person.css';
+@import './layout/about.css';
+@import './layout/section-heading.css';
+@import './layout/education.css';
+@import './layout/skills.css';
+@import './layout/portfolio.css';
+@import './layout/interests.css';
+@import './layout/self-introduction.css';
+@import './layout/footer.css';

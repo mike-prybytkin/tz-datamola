@@ -1,0 +1,125 @@
+.person__wrapper {
+  position: relative;
+  background-color: var(--color-main);
+  color: var(--color-text-secondary);
+  height: 360px;
+  bottom: calc(330px / 2);
+  overflow: hidden;
+  gap: 135px;
+  font-family: var(--font-additional);
+  box-shadow: var(--section-shadow);
+}
+
+.dark-theme .person__wrapper {
+  background: var(--color-main-dark);
+}
+
+.person__info {
+  padding: 40px 0 40px 40px;
+  flex-basis: 460px;
+  z-index: 2;
+}
+
+.person__name {
+  margin: 0;
+  text-shadow: var(--text-shadow);
+  font-size: 4.6rem;
+}
+
+.person__position {
+  margin-top: 6px;
+  text-shadow: var(--text-shadow);
+  font-size: 2.7rem;
+}
+
+.person__contacts {
+  font-size: 1.8rem;
+  padding: 0;
+  list-style-type: none;
+}
+
+.person__contact {
+  margin-bottom: 4px;
+}
+
+.person__contact .fa {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.person__contact_location {
+  padding-left: 3px;
+  margin-bottom: 0px;
+}
+
+.person__social-media {
+  font-size: 3.8rem;
+}
+
+.link.linkedin {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.person__slant {
+  position: absolute;
+  width: 66px;
+  height: 400px;
+  right: 335px;
+  background-color: inherit;
+  z-index: 1;
+  transform: skewX(10deg);
+}
+
+.person__photo-wrapper {
+  position: absolute;
+  right: 0;
+}
+
+.person__photo {
+  height: 360px;
+  width: 370px;
+  object-fit: cover;
+}
+
+@media (max-width: 880px) {
+
+  .person__wrapper {
+    overflow: visible;
+    justify-content: center;
+    height: auto;
+  }
+
+  .person__info {
+    padding: 80px 0 40px 0;
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  .person__contacts {
+    text-align: left;
+    width: 260px;
+    margin-left: calc(50vw - 130px);
+    margin-top: 0;
+  }
+
+  .person__contact {
+    margin-bottom: 10px;
+  }
+
+  .person__slant {
+    display: none;
+  }
+
+  .person__photo-wrapper {
+    left: calc(50vw - 100px) ;
+    top: -120px;
+  }
+
+  .person__photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    box-shadow: var(--section-shadow);
+  }
+}

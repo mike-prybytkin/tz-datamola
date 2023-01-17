@@ -1,0 +1,26 @@
+.education {
+  padding-top: 40px;
+}
+
+.education-timeline {
+  padding-top: 10px;
+  position: relative;
+}
+
+.education-timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  margin-left: -2px;
+  height: 81%;
+  opacity: 0.4;
+  background: var(--color-main);
+  width: 4px;
+}
+
+@media (max-width: 880px) {
+
+  .education-timeline::before {
+    height: 91%;
+  }
+}
